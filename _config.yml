@@ -12,7 +12,7 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: ai-security, adversarial-machine-learning, automated-program-analysis, cybersecurity
 
-# Location & Contact
+# Location & Address
 country_code: NG
 city: Abuja
 
@@ -20,7 +20,7 @@ city: Abuja
 url: "https://realavdulmouhd.github.io"
 baseurl: ""
 
-# Profile settings (Rendered directly by the original al-folio theme)
+# Profile settings (Full al-folio theme layout)
 profile:
   align: right
   image: prof_pic.jpg
@@ -42,7 +42,7 @@ socials:
 navbar_title: Abdulrahman Suleiman
 nav_title: Abdulrahman Suleiman
 
-# Theme Core & Visuals
+# Theme features
 enable_tooltips: false
 enable_math: true
 enable_google_analytics: false
@@ -97,8 +97,15 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year/:title/
 
-# Plugins installed in your Gemfile
+# Plugins list for al-folio v1
 plugins:
+  - al_folio_core
+  - al_icons
+  - al_folio_cv
+  - al_citations
+  - al_img_tools
+  - al_search
+  - al_math
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate-v2
@@ -133,7 +140,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-# Exclude rogue files that were loose in root
+# Exclude loose demo files in root that call missing includes
 exclude:
   - "201*"
   - "202*"
