@@ -2,25 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.4.1"
 
-# Official al-folio v1.x plugin ecosystem
-gem "al-folio-core"
-gem "al-folio-cv"
-gem "al-folio-distill"
-gem "al-folio-bootstrap-compat"
-gem "al-folio-upgrade"
-gem "al-icons"
-gem "al-search"
-gem "al-citations"
-gem "al-ext-posts"
-gem "al-analytics"
-gem "al-comments"
-gem "al-cookie"
-gem "al-img-tools"
-gem "al-math"
-gem "al-charts"
-gem "al-newsletter"
-
-# Essential Jekyll utilities
+# Standard academic & al-folio plugins
 gem "jekyll-feed"
 gem "jekyll-sitemap"
 gem "jekyll-paginate-v2"
@@ -29,3 +11,7 @@ gem "jekyll-email-protect"
 gem "jekyll-twitter-plugin"
 gem "jekyll-3rd-party-libraries"
 gem "webrick"
+
+group :jekyll_plugins do
+  gem "jekyll-github-metadata"
+end
