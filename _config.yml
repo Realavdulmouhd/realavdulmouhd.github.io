@@ -137,3 +137,22 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+
+    # Exclude legacy demo files sitting in root
+exclude:
+  - "201*"
+  - "202*"
+  - "*.jpg"
+  - "1_project.md"
+  - "2_project.md"
+  - "3_project.md"
+  - "4_project.md"
+  - "5_project.md"
+  - "6_project.md"
+  - "7_project.md"
+  - "8_project.md"
+  - "9_project.md"
+  - "*_project.md"
+  - "*.yml"
+  - "Dockerfile"
+  - "docker-compose*"
