@@ -2,30 +2,38 @@
 layout: about
 title: about
 permalink: /
-subtitle: Software Engineer & Aspiring AI Security Researcher.
+subtitle: Software Engineer & Aspiring AI Security Researcher
 
 profile:
   align: right
-  image: /prof_pic.jpg
+  image: prof_pic.jpg
   image_circular: true
   more_info: >
     <p>Almaty, Kazakhstan</p>
     <p>Software Engineering @ AlmaU</p>
 
-selected_papers: false # Turned off until you publish your first paper
+selected_papers: false
 social: true
 
 announcements:
-  enabled: false # Disabled to keep your homepage clean and professional
+  enabled: false
 
 latest_posts:
-  enabled: false # Disabled to focus strictly on your portfolio and research
+  enabled: false
 ---
 
-I am a Software Engineering undergraduate at Almaty Management University (AlmaU), with an expected graduation in 2028. 
+I am an undergraduate Software Engineering scholar at Almaty Management University (AlmaU) targeting Fall 2028 entry into fully-funded graduate research in **AI Security & Adversarial Machine Learning**.
 
-My technical focus and academic research lie strictly at the intersection of **Artificial Intelligence** and **Cybersecurity**. I am deeply interested in Adversarial Machine Learning, automated vulnerability discovery, and building resilient defense systems capable of neutralizing sophisticated AI-driven threats. My immediate objective is a direct transition into a fully-funded Master’s and PhD program in AI Security upon graduation.
+My primary focus centers on the intersection of offensive security and machine learning:
+- **Adversarial Machine Learning:** Designing resilient architectures against model evasion and data poisoning.
+- **Automated Bug Discovery:** Leveraging code-specialized transformer models to analyze source code for memory safety and zero-day vulnerabilities.
+- **Systems & Cloud Engineering:** Architecting scalable distributed backends with Python, TypeScript, Docker, and modern database paradigms.
 
-Beyond academic research, I operate as a freelance systems architect and full-stack developer. I build scalable web applications, robust backend APIs, and secure cloud infrastructure using Python, Node.js, React, TypeScript, and Docker. 
+Alongside academic investigations, I build production-grade web systems and explore low-level software vulnerabilities. My long-term roadmap targets completing an en-route MS and PhD in Computer Science with a focus on autonomous cyber defense.
 
-Currently, I am actively building my technical portfolio and seeking research mentorship to push the boundaries of ethical hacking and secure AI models.
+***
+
+**Profiles & Verification:**
+- **ORCID iD:** [0009-0008-8213-2555](https://orcid.org/0009-0008-8213-2555)[cite: 18]
+- **GitHub:** [Realavdulmouhd](https://github.com/Realavdulmouhd)[cite: 19]
+- **LinkedIn:** [Abdurrahman Suleiman](https://www.linkedin.com/in/realavdulmouhd-abdulrahman-suleiman)
