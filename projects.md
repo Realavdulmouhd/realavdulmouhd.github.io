@@ -13,7 +13,7 @@ These projects cover my work with security tooling, machine learning, computer v
 
 ## Security & AI Research
 
-### SentinelAI — Intelligent Intrusion Detection
+### SentinelAI - Intelligent Intrusion Detection
 
 **February 2026 · Security Research**
 
@@ -29,7 +29,7 @@ The main engineering challenge is separating unusual but legitimate traffic from
 
 ---
 
-### FederatedGuard — Privacy-Preserving Machine Learning
+### FederatedGuard - Privacy-Preserving Machine Learning
 
 **2025 · Applied ML Research**
 
@@ -45,7 +45,7 @@ The work focuses on local model updates, aggregation, uneven data distributions,
 
 ---
 
-### PromptShield — Adversarial LLM Testing
+### PromptShield - Adversarial LLM Testing
 
 **2023 · AI Security Prototype**
 
@@ -61,7 +61,7 @@ It organizes adversarial prompts into repeatable test cases and examines failure
 
 ---
 
-### MalwareMind — Explainable Malware Classification
+### MalwareMind - Explainable Malware Classification
 
 **2022 · Security & Machine Learning**
 
@@ -77,7 +77,7 @@ The design combines static file features with machine learning and feature attri
 
 ---
 
-### VoiceTrust AI — Synthetic Speech Detection
+### VoiceTrust AI - Synthetic Speech Detection
 
 **2021 · Audio Machine Learning**
 
@@ -95,7 +95,7 @@ The project uses signal-processing features as the basis for studying whether su
 
 ## Applied Systems & Engineering
 
-### KanoLife — Browser-Based Life Simulation
+### KanoLife - Browser-Based Life Simulation
 
 **December 2025 · Full-Stack Engineering**
 
@@ -113,7 +113,7 @@ The project explores server-authoritative state management, persistence, validat
 
 ---
 
-### AegisHand AI — Gesture-Based Computer Control
+### AegisHand AI - Gesture-Based Computer Control
 
 **2024 · Computer Vision**
 
@@ -129,7 +129,7 @@ The design focuses on converting noisy landmark measurements into usable control
 
 ---
 
-### AI VoiceForge — Multilingual Voice Assistant
+### AI VoiceForge - Multilingual Voice Assistant
 
 **2025 · Conversational AI**
 
