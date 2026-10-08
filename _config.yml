@@ -1,52 +1,93 @@
-# -----------------------------------------------------------------------------
-# al-folio v1 Configuration Contract
-# -----------------------------------------------------------------------------
 
-al_folio:
-  api_version: 1
-  style_engine: tailwind
-  tailwind:
-    version: 3.4.10
-    preflight: false
-    css_entry: assets/css/main.css
-  distill:
-    engine: false
-    source: false
-  compat:
-    bootstrap: true
-
-# -----------------------------------------------------------------------------
-# Site Settings
-# -----------------------------------------------------------------------------
+# ============================================================
+# Identity and site metadata
+# ============================================================
 
 title: Abdulrahman Suleiman
 first_name: Abdulrahman
 middle_name:
 last_name: Suleiman
+
+navbar_title: Abdulrahman Suleiman
+nav_title: Abdulrahman Suleiman
+
 email: s.abdurrahman6666@gmail.com
-description: Software Engineering undergraduate focusing on AI Security and Adversarial Machine Learning.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: ai-security, adversarial-machine-learning, automated-program-analysis, cybersecurity
+lang: en
 
-# Location & Address
-country_code: NG
-city: Abuja
+description: >-
+  Abdulrahman Suleiman is a software engineer and independent
+  researcher working on AI security, adversarial machine learning,
+  secure software systems, and automated program analysis.
 
-# URL structure
+keywords: >-
+  software engineering, AI security, adversarial machine learning,
+  cybersecurity, secure systems, program analysis, machine learning
+
+footer_text: >-
+  Built with Jekyll and al-folio.
+  Source code and engineering work are available on GitHub.
+
 url: "https://realavdulmouhd.github.io"
 baseurl: ""
 
-# Profile settings (al-folio native layout)
+icon: "⌘"
+last_updated: false
+back_to_top: true
+
+# ============================================================
+# al-folio v1 runtime contract
+# ============================================================
+
+theme: al_folio_core
+
+al_folio:
+  api_version: 1
+  style_engine: tailwind
+
+  tailwind:
+    version: "4.1.18"
+    preflight: false
+    css_entry: assets/tailwind/app.css
+
+  distill:
+    engine: distillpub-template
+    source: al-org-dev/distill-template#al-folio
+    allow_remote_loader: false
+
+  features:
+    cv:
+      enabled: false
+    distill:
+      enabled: false
+
+  compat:
+    bootstrap:
+      enabled: true
+      support_window: v1.0-v1.2
+      deprecates_in: v1.3
+      removed_in: v2.0
+
+  upgrade:
+    channel: stable
+    auto_apply_safe_fixes: false
+
+# ============================================================
+# Profile
+# ============================================================
+
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true
-  more_info: >
-    <p>Software Engineering</p>
-    <p>Abuja, Nigeria</p>
+  more_info: >-
+    <p>Software Engineer</p>
+    <p>Independent Researcher</p>
+    <p>AI Security &amp; Systems Architecture</p>
 
-# Social links
+# ============================================================
+# Social and research identifiers
+# ============================================================
+
 socials:
   email: s.abdurrahman6666@gmail.com
   github: Realavdulmouhd
@@ -55,113 +96,308 @@ socials:
   x: real_avdulmouhd
   facebook: realavdulmouhd
 
-# Navigation
-navbar_title: Abdulrahman Suleiman
-nav_title: Abdulrahman Suleiman
+# No scholar_userid is assigned until the exact Google
+# Scholar author profile has been verified.
+# Author discovery is linked directly from about.md.
 
-# Features
-enable_tooltips: false
+# ============================================================
+# Navigation and layout
+# ============================================================
+
+navbar_fixed: true
+footer_fixed: false
+max_width: 930px
+
+search_enabled: false
+socials_in_search: false
+posts_in_search: false
+bib_search: false
+
+# ============================================================
+# Display features
+# ============================================================
+
+enable_darkmode: true
+enable_project_categories: true
+enable_project_tags: true
+
+enable_masonry: false
 enable_math: true
+enable_tooltips: false
+enable_medium_zoom: false
+enable_progressbar: false
+
+enable_navbar_social: false
+enable_publication_thumbnails: false
+enable_video_embedding: false
+
 enable_google_analytics: false
+enable_cookie_consent: false
+enable_google_verification: false
+enable_bing_verification: false
 
-# Third-party libraries required by al-folio
-third_party_libraries:
-  bootstrap:
-    integrity:
-      css: sha512-421712a81878d2b9921bc32e73f4e1f74dd7e10886445585b410427845f0612986f7b1d4c7980b182f7c0068832a24911005a76c6df2e24747c3cf3dc5b3cbde
-      js: sha512-Xkpt4Vf2p+e91qPqDq/X7Z005b63df0b3ce8ecbb715ff296538965b20696efbdfefc1f1ec4567bdc67e9f3b143c7263b6d2105ccbf44bc4c92a6fa8ceae60ba6
-    url:
-      css: https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css
-      js: https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js
-  jquery:
-    integrity:
-      js: sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==
-    url:
-      js: https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js
-  font-awesome:
-    integrity:
-      css: sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==
-    url:
-      css: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css
-  academicons:
-    integrity:
-      css: sha512-W4PbtiP4x5oVlh58pU2uV5K1vGj/0L910gL8b8l9Uf5h29k1t5d3iX+j2+l1U9b1l8L0gUf4y8b9U0f2h21k1g==
-    url:
-      css: https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css
-  mathjax:
-    integrity:
-      js: sha512-f+h1+Qv9r00LgU+w7k6P9qT2P2U4YV1w7vQ2T8y3U6d2T8t5p0o0v+q7+y6T2x3y3P9Y+V1w7k6P8r1x+w==
-    url:
-      js: https://polyfill.io/v3/polyfill.min.js?features=es6
-  masonry:
-    integrity:
-      js: sha512-Y147v8Zz89y78L71n1L707L68i8L8y7k9x07L8m8L6m2Y+p1b3i5v7f6x5k2g8d3j4n9Y7k1L8L0gUf4y8b9U0==
-    url:
-      js: https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js
-  imagesloaded:
-    integrity:
-      js: sha512-c2e3x12a0f8b1a50a12e8b0a5f9a6d0c2e3x12a0f8b1a50a12e8b0a5f9a6d0c2e3x12a0f8b1a50a12e8b0a==
-    url:
-      js: https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js
-  medium_zoom:
-    integrity:
-      js: sha512-DYqNOC7B64x65x783x8b9y1a0L0u4YV2p+e91qPqDq/X7Z005b63df0b3ce8ecbb715ff296538965b20696efb==
-    url:
-      js: https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js
+serve_og_meta: false
+serve_schema_org: false
 
-# Build settings
+lazy_loading_images: true
+protect_email: false
+
+repo_theme_light: default
+repo_theme_dark: dark
+
+repo_trophies:
+  enabled: false
+  theme_light: flat
+  theme_dark: dark
+
+# ============================================================
+# Jekyll core
+# ============================================================
+
 markdown: kramdown
 highlighter: rouge
-permalink: /:year/:title/
+permalink: /blog/:year/:title/
 
-# Plugins
-plugins:
-  - al_folio_core
-  - al_icons
-  - al_folio_cv
-  - al_citations
-  - al_img_tools
-  - al_search
-  - al_math
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate-v2
-  - jekyll-scholar
-  - jekyll-email-protect
-  - jekyll-twitter-plugin
-  - jekyll-3rd-party-libraries
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
 
-# Scholar settings
-scholar:
-  last_name: Suleiman
-  first_name: [Abdulrahman]
-  style: apa
-  locale: en
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-  replace_strings: true
-  join_strings: true
-  details_dir: bibliography
-  details_layout: bibtex.html
-  prefix: ""
+include:
+  - _pages
 
+keep_files:
+  - CNAME
+  - .nojekyll
+
+# ============================================================
 # Collections
+# ============================================================
+
 collections:
   news:
-    defaults:
-      layout: post
     output: true
     permalink: /news/:path/
+
   projects:
     output: true
     permalink: /projects/:path/
 
-# Exclude loose demo files in root that call missing includes
+# ============================================================
+# Defaults
+# ============================================================
+
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
+
+# ============================================================
+# Jekyll plugins
+# ============================================================
+
+plugins:
+  - jekyll-3rd-party-libraries
+  - jekyll-archives-v2
+  - jekyll-cache-bust
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll-regex-replace
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-socials
+  - jekyll-tabs
+  - jekyll-toc
+  - jekyll-twitter-plugin
+  - jemoji
+
+  - al_folio_core
+  - al_icons
+  - al_folio_cv
+  - al_folio_distill
+  - al_folio_upgrade
+  - al_folio_bootstrap_compat
+  - al_cookie
+  - al_analytics
+  - al_citations
+  - al_ext_posts
+  - al_img_tools
+  - al_search
+  - al_charts
+  - al_math
+  - al_comments
+  - al_newsletter
+  - al_email_protect
+  - al_marimo
+  - al_rtl
+
+# ============================================================
+# Bibliography and citations
+# ============================================================
+
+scholar:
+  last_name: [Suleiman]
+  first_name: [Abdulrahman, Abdurrahman]
+
+  style: apa
+  locale: en
+
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_link: Details
+
+  query: "@*"
+  group_by: year
+  group_order: descending
+
+enable_publication_badges:
+  altmetric: false
+  dimensions: false
+  google_scholar: false
+  inspirehep: false
+
+filtered_bibtex_keywords:
+  - abbr
+  - abstract
+  - annotation
+  - arxiv
+  - bibtex_show
+  - code
+  - google_scholar_id
+  - html
+  - pdf
+  - preview
+  - selected
+  - website
+
+max_author_limit: 3
+
+# ============================================================
+# External links
+# ============================================================
+
+external_links:
+  enabled: true
+  rel: external noopener noreferrer
+  target: _blank
+  exclude: []
+
+# ============================================================
+# Build optimizations
+# ============================================================
+
+sass:
+  style: compressed
+
+jekyll-minifier:
+  compress_javascript: false
+  compress_css: false
+  exclude:
+    - robots.txt
+
+imagemagick:
+  enabled: false
+
+# ============================================================
+# Third-party library manifest
+# Verified upstream al-folio version/hash pairs.
+# ============================================================
+
+third_party_libraries:
+  download: false
+
+  bootstrap-table:
+    integrity:
+      css: "sha256-uRX+PiRTR4ysKFRCykT8HLuRCub26LgXJZym3Yeom1c="
+      js: "sha256-4rppopQE9POKfukn2kEvhJ9Um25Cf6+IDVkARD0xh78="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.css"
+      js: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.js"
+    version: "1.22.4"
+
+  fontawesome:
+    integrity:
+      css: "sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@{{version}}/css/all.min.css"
+    version: "7.2.0"
+
+  academicons:
+    integrity:
+      css: "sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/academicons@{{version}}/css/academicons.min.css"
+    version: "1.9.5"
+
+  jquery:
+    integrity:
+      js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
+    version: "3.6.0"
+
+  imagesloaded:
+    integrity:
+      js: "sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/imagesloaded@{{version}}/imagesloaded.pkgd.min.js"
+    version: "5.0.0"
+
+  masonry:
+    integrity:
+      js: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/masonry-layout@{{version}}/dist/masonry.pkgd.min.js"
+    version: "4.2.2"
+
+  mathjax:
+    integrity:
+      js: "sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="
+    local:
+      fonts: "output/chtml/fonts/woff-v2/"
+    url:
+      fonts: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/output/chtml/fonts/woff-v2/"
+      js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.js"
+    version: "3.2.2"
+
+# ============================================================
+# Feed, pagination, and archives
+# ============================================================
+
+pagination:
+  enabled: false
+
+jekyll-archives:
+  posts:
+    enabled: []
+  books:
+    enabled: []
+
+# ============================================================
+# Deployment exclusions
+# ============================================================
+
 exclude:
   - "201*"
   - "202*"
-  - "*.jpg"
   - "*_project.md"
   - "announcement_*.md"
   - "blog.md"
@@ -171,3 +407,13 @@ exclude:
   - "the_godfather.md"
   - "Dockerfile"
   - "docker-compose*"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "LICENSE"
+  - "node_modules"
+  - "vendor"
+  - "docs"
+  - "bin"
+  - "package.json"
+  - "package-lock.json"
