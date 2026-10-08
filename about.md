@@ -6,11 +6,11 @@ subtitle: Software Engineer & Aspiring AI Security Researcher.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: true # This crops your photo into a modern circle
+  image: /prof_pic.jpg
+  image_circular: true
   more_info: >
     <p>Almaty, Kazakhstan</p>
-    <p>Almaty Management University</p>
+    <p>Software Engineering @ AlmaU</p>
 
 selected_papers: false # Turned off until you publish your first paper
 social: true
