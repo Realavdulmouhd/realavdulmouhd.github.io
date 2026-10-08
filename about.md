@@ -10,7 +10,7 @@ profile:
   image_circular: true
   more_info: >
     <p>Software Engineering</p>
-    <p>Almaty Management University</p>
+    <p>University Student</p>
 
 selected_papers: false
 social: true
@@ -22,7 +22,7 @@ latest_posts:
   enabled: false
 ---
 
-I am a Software Engineering undergraduate at Almaty Management University (graduating 2028), preparing for direct-entry PhD and Master's programs focused on the intersection of **Artificial Intelligence and Cybersecurity**.
+I am a Software Engineering undergraduate STUDENT (graduating 2028), preparing for direct-entry PhD and Master's programs focused on the intersection of **Artificial Intelligence and Cybersecurity**.
 
 My academic work and independent investigations focus on offensive security principles applied to machine learning systems:
 - **Adversarial Machine Learning:** Evaluating model vulnerabilities against evasion techniques, data poisoning, and distribution shift attacks.
