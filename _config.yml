@@ -23,9 +23,7 @@ keywords: >-
   software engineering, AI security, adversarial machine learning,
   cybersecurity, secure systems, program analysis, machine learning
 
-footer_text: >-
-  Built with Jekyll and al-folio.
-  Source code and engineering work are available on GitHub.
+footer_text: "© Copyright 2026 Abdulrahman Suleiman."
 
 url: "https://realavdulmouhd.github.io"
 baseurl: ""
@@ -170,6 +168,9 @@ kramdown:
 
 include:
   - _pages
+  - about.md
+  - projects.md
+  - repositories.md
 
 keep_files:
   - CNAME
