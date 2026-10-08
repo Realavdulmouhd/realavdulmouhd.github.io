@@ -14,7 +14,7 @@ nav: true
     <span class="badge badge-secondary">Private Architecture</span>
   </div>
   <p class="text-muted mb-2">
-    Core platform engine for KanoLife - a browser-based simulation runtime featuring a server-authoritative economy, career systems, interactive markets, housing registries, and synchronized social state.
+    Core platform engine for KanoLife - a browser-based simulation runtime featuring a server-authoritative economy, career systems,interactive markets, housing registries, and synchronized social state.
   </p>
   <div class="small text-secondary">
     <span><strong>Stack:</strong> TypeScript, Node.js, Distributed State Engine</span>
