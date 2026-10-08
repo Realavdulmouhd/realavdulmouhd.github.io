@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: Software Engineer & Aspiring AI Security Researcher
+subtitle: Artificial Intelligence & Cybersecurity | Software Systems
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: /prof_pic.jpg
   image_circular: true
   more_info: >
-    <p>Almaty, Kazakhstan</p>
-    <p>Software Engineering @ AlmaU</p>
+    <p>Software Engineering</p>
+    <p>Almaty Management University</p>
 
 selected_papers: false
 social: true
@@ -22,18 +22,18 @@ latest_posts:
   enabled: false
 ---
 
-I am an undergraduate Software Engineering scholar at Almaty Management University (AlmaU) targeting Fall 2028 entry into fully-funded graduate research in **AI Security & Adversarial Machine Learning**.
+I am a Software Engineering undergraduate at Almaty Management University (graduating 2028), preparing for direct-entry PhD and Master's programs focused on the intersection of **Artificial Intelligence and Cybersecurity**.
 
-My primary focus centers on the intersection of offensive security and machine learning:
-- **Adversarial Machine Learning:** Designing resilient architectures against model evasion and data poisoning.
-- **Automated Bug Discovery:** Leveraging code-specialized transformer models to analyze source code for memory safety and zero-day vulnerabilities.
-- **Systems & Cloud Engineering:** Architecting scalable distributed backends with Python, TypeScript, Docker, and modern database paradigms.
+My academic work and independent investigations focus on offensive security principles applied to machine learning systems:
+- **Adversarial Machine Learning:** Evaluating model vulnerabilities against evasion techniques, data poisoning, and distribution shift attacks.
+- **Automated Program Analysis:** Applying code-aware transformer models and static analysis to detect memory safety issues and zero-day vulnerabilities.
+- **Resilient Infrastructure:** Engineering backend services and distributed pipelines with Python, TypeScript, Docker, and Linux environments designed to withstand adversarial inputs.
 
-Alongside academic investigations, I build production-grade web systems and explore low-level software vulnerabilities. My long-term roadmap targets completing an en-route MS and PhD in Computer Science with a focus on autonomous cyber defense.
+Alongside research, I design and ship production-ready web platforms and cloud backends as a systems architect. My long-term roadmap centers on autonomous vulnerability remediation and building AI systems with verifiable security guarantees.
 
 ***
 
-**Profiles & Verification:**
-- **ORCID iD:** [0009-0008-8213-2555](https://orcid.org/0009-0008-8213-2555)[cite: 18]
-- **GitHub:** [Realavdulmouhd](https://github.com/Realavdulmouhd)[cite: 19]
-- **LinkedIn:** [Abdurrahman Suleiman](https://www.linkedin.com/in/realavdulmouhd-abdulrahman-suleiman)
+**Profiles & Research Identifiers:**
+- **ORCID iD:** [0009-0008-8213-2555](https://orcid.org/0009-0008-8213-2555)
+- **GitHub:** [Realavdulmouhd](https://github.com/Realavdulmouhd)
+- **LinkedIn:** [Abdulrahman Suleiman](https://www.linkedin.com/in/realavdulmouhd-abdulrahman-suleiman)
