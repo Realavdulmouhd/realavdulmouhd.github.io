@@ -97,9 +97,8 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year/:title/
 
-# Theme Plugins (Restores full al-folio rendering engine)
+# Plugins installed in your Gemfile
 plugins:
-  - al-folio-core
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate-v2
