@@ -6,11 +6,11 @@ subtitle: Artificial Intelligence & Cybersecurity | Software Systems
 
 profile:
   align: right
-  image: /prof_pic.jpg
+  image: prof_pic.jpg
   image_circular: true
   more_info: >
     <p>Software Engineering</p>
-    <p>University Student</p>
+    <p>Abuja, Nigeria</p>
 
 selected_papers: false
 social: true
@@ -22,14 +22,14 @@ latest_posts:
   enabled: false
 ---
 
-I am a Software Engineering undergraduate STUDENT (graduating 2028), preparing for direct-entry PhD and Master's programs focused on the intersection of **Artificial Intelligence and Cybersecurity**.
+I am a Software Engineering undergraduate preparing for direct-entry PhD and Master's programs focused on the intersection of **Artificial Intelligence and Cybersecurity**.
 
 My academic work and independent investigations focus on offensive security principles applied to machine learning systems:
 - **Adversarial Machine Learning:** Evaluating model vulnerabilities against evasion techniques, data poisoning, and distribution shift attacks.
 - **Automated Program Analysis:** Applying code-aware transformer models and static analysis to detect memory safety issues and zero-day vulnerabilities.
 - **Resilient Infrastructure:** Engineering backend services and distributed pipelines with Python, TypeScript, Docker, and Linux environments designed to withstand adversarial inputs.
 
-Alongside research, I design and ship production-ready web platforms and cloud backends as a systems architect. My long-term roadmap centers on autonomous vulnerability remediation and building AI systems with verifiable security guarantees.
+Alongside research, I design and ship production-grade web platforms and distributed state architectures as a systems engineer. My long-term roadmap centers on autonomous vulnerability remediation and building AI systems with verifiable security guarantees.
 
 ***
 
