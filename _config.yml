@@ -1,5 +1,22 @@
 # -----------------------------------------------------------------------------
-# Site settings
+# al-folio v1 Configuration Contract
+# -----------------------------------------------------------------------------
+
+al_folio:
+  api_version: 1
+  style_engine: tailwind
+  tailwind:
+    version: 3.4.10
+    preflight: false
+    css_entry: assets/css/main.css
+  distill:
+    engine: false
+    source: false
+  compat:
+    bootstrap: true
+
+# -----------------------------------------------------------------------------
+# Site Settings
 # -----------------------------------------------------------------------------
 
 title: Abdulrahman Suleiman
@@ -20,7 +37,7 @@ city: Abuja
 url: "https://realavdulmouhd.github.io"
 baseurl: ""
 
-# Profile settings (Full al-folio theme layout)
+# Profile settings (al-folio native layout)
 profile:
   align: right
   image: prof_pic.jpg
@@ -38,11 +55,11 @@ socials:
   x: real_avdulmouhd
   facebook: realavdulmouhd
 
-# Navigation settings
+# Navigation
 navbar_title: Abdulrahman Suleiman
 nav_title: Abdulrahman Suleiman
 
-# Theme features
+# Features
 enable_tooltips: false
 enable_math: true
 enable_google_analytics: false
@@ -97,7 +114,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year/:title/
 
-# Plugins list for al-folio v1
+# Plugins
 plugins:
   - al_folio_core
   - al_icons
