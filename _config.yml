@@ -7,7 +7,7 @@ first_name: Abdulrahman
 middle_name:
 last_name: Suleiman
 email: s.abdurrahman6666@gmail.com
-description: Software Engineering undergraduate Student University focusing on AI Security and Adversarial Machine Learning.
+description: Software Engineering undergraduate focusing on AI Security and Adversarial Machine Learning.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: ai-security, adversarial-machine-learning, automated-program-analysis, cybersecurity
@@ -27,7 +27,6 @@ profile:
   image_circular: true
   more_info: >
     <p>Software Engineering</p>
-    <p>Undergraduate STUDENT</p>
     <p>Abuja, Nigeria</p>
 
 # Social & Research Profiles
@@ -103,7 +102,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year/:title/
 
-# Plugins
+# Plugins (only installed ones)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -111,7 +110,6 @@ plugins:
   - jekyll-scholar
   - jekyll-email-protect
   - jekyll-twitter-plugin
-  - jekyll-target-blank
   - jekyll-3rd-party-libraries
 
 # Scholar settings
