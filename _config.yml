@@ -12,7 +12,7 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: ai-security, adversarial-machine-learning, automated-program-analysis, cybersecurity
 
-# Location
+# Location & Contact
 country_code: NG
 city: Abuja
 
@@ -20,7 +20,7 @@ city: Abuja
 url: "https://realavdulmouhd.github.io"
 baseurl: ""
 
-# Profile settings
+# Profile settings (Rendered directly by the original al-folio theme)
 profile:
   align: right
   image: prof_pic.jpg
@@ -29,7 +29,7 @@ profile:
     <p>Software Engineering</p>
     <p>Abuja, Nigeria</p>
 
-# Social & Research Profiles
+# Social links
 socials:
   email: s.abdurrahman6666@gmail.com
   github: Realavdulmouhd
@@ -42,15 +42,10 @@ socials:
 navbar_title: Abdulrahman Suleiman
 nav_title: Abdulrahman Suleiman
 
-# Theme features
+# Theme Core & Visuals
 enable_tooltips: false
 enable_math: true
 enable_google_analytics: false
-enable_cronitor_analytics: false
-enable_pirsch_analytics: false
-enable_panelbear_analytics: false
-enable_google_verification: false
-enable_bing_verification: false
 
 # Third-party libraries required by al-folio
 third_party_libraries:
@@ -102,8 +97,9 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year/:title/
 
-# Plugins (only installed ones)
+# Theme Plugins (Restores full al-folio rendering engine)
 plugins:
+  - al-folio-core
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate-v2
@@ -138,21 +134,17 @@ collections:
     output: true
     permalink: /projects/:path/
 
-    # Exclude legacy demo files sitting in root
+# Exclude rogue files that were loose in root
 exclude:
   - "201*"
   - "202*"
   - "*.jpg"
-  - "1_project.md"
-  - "2_project.md"
-  - "3_project.md"
-  - "4_project.md"
-  - "5_project.md"
-  - "6_project.md"
-  - "7_project.md"
-  - "8_project.md"
-  - "9_project.md"
   - "*_project.md"
-  - "*.yml"
+  - "announcement_*.md"
+  - "blog.md"
+  - "news.md"
+  - "teaching.md"
+  - "books.md"
+  - "the_godfather.md"
   - "Dockerfile"
   - "docker-compose*"
