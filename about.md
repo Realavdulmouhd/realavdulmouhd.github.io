@@ -21,6 +21,8 @@ announcements:
 
 latest_posts:
   enabled: false
+nav: true
+nav_order: 1
 ---
 
 I'm **Abdulrahman Suleiman**, a software engineer and independent researcher interested in how software and machine learning systems behave when their assumptions fail.

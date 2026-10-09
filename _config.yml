@@ -23,12 +23,12 @@ keywords: >-
   software engineering, AI security, adversarial machine learning,
   cybersecurity, secure systems, program analysis, machine learning
 
-footer_text: "© Copyright 2026 Abdulrahman Suleiman."
+footer_text: ""
 
 url: "https://realavdulmouhd.github.io"
 baseurl: ""
 
-icon: "⌘"
+icon: "as-favicon.svg"
 last_updated: false
 back_to_top: true
 

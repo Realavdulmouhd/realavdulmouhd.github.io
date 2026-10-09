@@ -4,7 +4,7 @@ title: repositories
 permalink: /repositories/
 description: Code, technical prototypes, and software architecture work.
 nav: true
-nav_order: 3
+nav_order: 5
 ---
 
 My GitHub contains software engineering work, experiments, and research-oriented prototypes.

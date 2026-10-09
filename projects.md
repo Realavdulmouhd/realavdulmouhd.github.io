@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: Selected work in AI security, machine learning, and software engineering.
 nav: true
-nav_order: 2
+nav_order: 4
 horizontal: false
 ---
 
