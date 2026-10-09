@@ -167,6 +167,7 @@ kramdown:
       start_line: 1
 
 include:
+  - blog.md
   - _pages
   - about.md
   - projects.md
@@ -401,7 +402,6 @@ exclude:
   - "202*"
   - "*_project.md"
   - "announcement_*.md"
-  - "blog.md"
   - "news.md"
   - "teaching.md"
   - "books.md"
